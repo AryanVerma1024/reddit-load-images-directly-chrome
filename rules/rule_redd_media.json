@@ -1,0 +1,16 @@
+[
+  {
+      "id": 4,
+      "priority": 1,
+      "action": {
+          "type": "redirect",
+          "redirect": {
+              "regexSubstitution" : "https://i.redd.it/\\2.\\3"
+          }
+      },
+      "condition": {
+          "regexFilter": ".*(t%2F)([a-zA-Z0-9]+).([a-zA-Z]+).*",
+          "resourceTypes": ["main_frame"]
+      }
+  }
+]
